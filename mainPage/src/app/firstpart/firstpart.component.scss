@@ -1,0 +1,236 @@
+.conatiner{
+    overflow-x: hidden;
+    height: 100vh;
+    background-size: 28% ,25%,60%,28%;
+    background-image: url(../../assets/images/blob-small.svg), url(../../assets/images/accounting_dots.svg), url(../../assets/images/circle.svg), url(../../assets/images/accounting_dots.svg);
+    background-position: left -4rem top 27rem, left 40rem top 73rem, top -9rem right -5rem, right 3rem bottom 5rem;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    opacity: 1;
+    position: relative;
+    .maketext{
+        padding: 10rem;
+        position: relative;
+        top: 19rem;
+        left: 15rem;
+    .textimg{
+        height: 10rem;
+        width: 40rem;
+    }
+    hr{
+        border: 5px solid black;
+        background: black;
+        width: 18rem;
+        border-radius: 1rem;
+        position: relative;
+        left: 0.25rem;
+    }
+    }
+    .collectimg{
+        width: 57rem;
+        height: 30rem;
+        position: relative;
+        left: 18rem;
+        top: 12rem;   
+    }
+    .groupimg{
+        position: relative;
+        top: 16rem;
+        right: -52rem;
+        height: 80rem;
+        width: 80rem;
+    }
+    .card{
+        left: 56rem;
+        top: 26rem;
+        padding: 16rem 2rem 1rem 2rem;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 30px #2321321F;
+    }
+    .card-title{
+        position: relative;
+        top: -14rem;
+        left: 8rem;
+        font-size: 3rem;
+        font-weight: 400;
+        font-family: "Graphik";
+        padding: 0.5rem
+    }
+    .card-body{
+        position: relative;
+        top: 1rem;
+    }
+    // .rangeCls input[type=range]{
+    //     -webkit-appearance: none;
+    //     width: 100%;
+    //     position: relative;
+    //     top: -13rem;
+    //     margin-top: 1.5rem;
+    //     margin-bottom: 1.5rem;
+    // }
+    
+    // .rangeClsinput[type=range]::-webkit-slider-runnable-track {
+        
+    //     width: 300px;
+    //     height: 5px;
+    //     background: gray;
+    //     border: none;
+    //     border-radius: 3px;
+    // }
+    // .rangeCls input[type=range]::-webkit-slider-thumb {
+    //     -webkit-appearance: none;
+    //     border: none;
+    //     height: 16px;
+    //     width: 16px;
+    //     border-radius: 50%;
+    //     background:#663399;
+    //     border: 2px solid red;
+    //     margin-top: -4px;
+    // }
+    // .rangeCls input[type=range]:focus {
+    //     outline: none;
+    // }
+    // .rangeCls input[type=range]:focus::-webkit-slider-runnable-track {
+    //     background: blue;
+    // }
+    .rangeCls input[type="range"]{
+        position: relative;
+        top: -13rem;
+        -webkit-appearance: none;
+        width: 100%;
+        height: 1.6rem;
+        border-radius: 15px;
+        background: #adadad;
+        outline: none;
+        overflow: hidden;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .rangeCls input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance:none;
+        width:2rem;
+        height:2rem;
+        background:#663399;
+        border-radius:15rem;
+        border: 7px solid white;
+        box-shadow:-350px 0px 0px 340px #663399;
+        cursor: pointer;
+	    outline: none;
+        transition: .3s ease-in-out;
+      }
+    .form-label{
+        position: relative;
+        top: -13rem;
+
+    }
+    .dropdownlist{
+        padding: 1rem;
+        position: relative;
+        top: -13rem;
+    }
+    .form-label,.dropdownlist,.switchText,.text{
+        font-size: 2rem;
+        font-weight: 200;
+        font-family: "Graphik"
+    }
+    .switchText{
+        position: relative;
+        bottom: 0.5rem;
+    }
+    .text{
+        position: relative;
+        top: -4rem;
+    }
+    input[type="text"]{
+        border: none;
+        border-bottom: 1px solid grey;
+        font-size: 3rem;
+        height: 1rem;
+        padding: 3.5rem 0.5rem;
+        outline: none;
+        position: relative;
+        top: -4rem;
+    }
+    .btn{
+        position: relative;
+        top: -13rem;
+        left: 1rem;
+        outline: none;
+        width:36rem;
+        padding: 1rem 25rem 1rem 0rem;
+        font-size: 2rem;
+        font-weight: bold;
+        color: black;
+        background: transparent;
+        border: none;
+        border-bottom: 1.5px solid grey;
+    }
+    .dropdown-toggle::after{
+        color: #663399;
+        position: relative;
+        left: 23rem;
+        outline: none;
+    }
+    .dropdown-item{
+        padding: 1rem 14rem;
+        font-size: 1.8rem;    
+    }
+    .switchClass{
+        position: relative;
+        top:-8rem
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        float: right;
+      }
+      
+      .switch input { 
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      
+      .amountcls{
+        top: 37rem;
+        background-color:#663399;
+        opacity: 1;
+        border-radius: 0rem 1.5rem 1.5rem 0rem;
+        left: 55rem;
+      }
+      .amountbody{
+        top: -6rem;
+        left: 0.6rem;
+        color:#FFFFFF
+      }
+      .titlecls{
+        position: relative;
+        top: -4rem;
+        font-size: 2rem;
+        white-space: nowrap;
+        .emicls{
+            left: -1rem
+        }
+      }
+      .amount{
+        position: relative;
+        top: -4rem;
+        padding: 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .moneybtns{
+        background-color: #FFFFFF;
+        color: #663399;
+        border:1px solid #663399;
+        padding: 1rem 2rem;
+        border-radius: 3rem;
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+    .moneybtns:hover{
+        background-color: #663399;
+        color: white;
+    }
+}

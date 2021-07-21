@@ -1,0 +1,86 @@
+<div class="conatiner">
+    <div class="row">
+        <div class="col-2">
+            <div>
+                <div class="maketext">
+                    <img class="textimg" src="../../assets/images/WemakeitSuperSim.svg" />
+                    <span>
+                        <hr />
+                    </span>
+
+                </div>
+                <div>
+                    <img class="collectimg" src="../../assets/images/collect_img-video.png" />
+                </div>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-title">
+                            <div class="title">Eligibility Calculator</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="rangeCls">
+                                <label for="customRange3" class="form-label">Monthly Income</label><br />
+                                <input type="range" class="form-range" min="0" max="50" step="0.5" id="customRange3">
+                            </div>
+                            <div class="rangeCls">
+                                <label for="customRange3" class="form-label">Monthly Expenses</label><br />
+                                <input type="range" class="form-range" min="0" max="50" step="0.5" id="customRange3">
+                            </div>
+                            <div>
+                                <label for="dropdownlist" class="dropdownlist">Repayment Tenure</label>
+                                <div class="btn-group">
+                                    <div class="btn-group" ngbDropdown role="group"
+                                        aria-label="Button group with nested dropdown">
+                                        <button class="btn btn-outline-primary"
+                                            ngbDropdownToggle>{{selectedSortOrder}}</button>
+                                        <div class="dropdown-menu" ngbDropdownMenu>
+                                            <button ngbDropdownItem *ngFor="let sortOrder of sortOrders"
+                                                (click)="ChangeSortOrder(sortOrder)">{{sortOrder}}</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="switchClass">
+                                <span class="switchText">Do you have any existing loans</span>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="text">Emi of Existing loan(optional)</label><br />
+                                <input type="text" placeholder="150000" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card amountcls">
+                        <div class="card-body amountbody">
+                            <div class="titlecls">
+                                Loan Amount
+                            </div>
+                            <div class="amount">
+                                100000
+                            </div>
+                            <div class="titlecls emicls">
+                                Your EMI will be
+                            </div>
+                            <div class="amount emiamount">
+                                15000
+                            </div>
+                            <div>
+                                <button type="reset" class="moneybtns">Get Money</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
